@@ -7,6 +7,7 @@ body {
   height: 150px;
   background-color: lightgrey;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .title {
@@ -21,9 +22,14 @@ body {
 }
 
 .item {
-  
   font-weight: 700;
   padding: 10px;
   width: 150px;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+}
+
+#three{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
